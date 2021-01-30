@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+  /* font-family: "Poppins", sans-serif !important; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  font-family: "Poppins", sans-serif !important;
+}
+a {
+  text-decoration: none;
+}
+
+/* ************** header Start ****************** */
+header {
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  padding: 10px;
+  /* color: white !important; */
+}
+header .nav-link {
+  font-size: 25px;
+  /* font-family: "Poppins", sans-serif !important; */
+}
+header .bg-transparent {
+  background-color: #fcc302 !important;
+  /* transition: none !important; */
+}
+header .bg-transparent:focus {
+  box-shadow: none !important;
+}
+header .bg-transparent ::placeholder {
+  color: white !important;
+}
+header .btn-outline-light {
+  background-color: #00bec9 !important;
+  border: 1px solid #00bec9 !important;
+}
+header .btn-outline-ligh:hover {
+  color: white !important;
+  border: none !important;
+}
+
+/* ************** header End ****************** */
+
+/* ************** Group 1 Start ****************** */
+.grp1 {
+  width: 100%;
+  background-color: #fcc302;
+  padding: 100px;
+  padding-top: 10rem;
+}
+.grp1 h1 {
+  padding: 15px 0px;
+  padding-top: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  font-weight: 500;
+  color: white;
+}
+.grp1 p {
+  padding: 15px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  color: white;
+}
+.grp1 .btn-primary {
+  background-color: #00bec9;
+  border-color: #00bec9;
+}
+.grp1 .btn-primary:hover {
+  background-color: #05cfda !important;
+  border-color: #05cfda !important;
+}
+/* .grp1 .btn-outline-light:active {
+    color: rgb(207, 17, 17) !important;
+} */
+.grp1 .btn-outline-light:hover {
+  color: rgb(83, 82, 82) !important;
+}
+/* ************** Group 1 End ****************** */
+
+/* ************** Group 2 Start ****************** */
+.grp2 {
+  width: 100%;
+  padding: 50px;
+  padding-bottom: 10rem;
+}
+.grp2 .left h1 {
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 10rem;
+}
+.grp2 .left p {
+  font-size: 28px;
+  padding: 25px 0;
+}
+.grp2 .left .btn-warning {
+  background-color: #fcc302;
+  color: white;
+  font-family: "Poppins", sans-serif !important;
+}
+.grp2 .left .btn-warning:hover {
+  background-color: #ffce2e;
+}
+.grp2 .right {
+  padding-top: 7rem;
+}
+.grp2 .video {
+  position: relative;
+  z-index: 1;
+}
+.grp2 .shadow {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(252, 195, 2, 0.5);
+}
+.grp2 .box {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: #fcc302;
+  bottom: -30px;
+  left: -30px;
+  z-index: -1;
+}
+.grp2 .icon i {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 70px;
+  color: #fcc302;
+  font-size: 30px !important;
+  position: absolute;
+  top: 43%;
+  left: 43%;
+}
+/* ************** Group 2 End ****************** */
+
+/* ************** Group 3 Start ****************** */
+.grp3 {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #fcc302;
+}
+.grp3 h1 {
+  font-weight: 600;
+  font-size: 75px;
+  text-align: center;
+  color: white;
+}
+.grp3 p {
+  font-weight: 400;
+  font-size: 33px;
+  text-align: center;
+  color: white;
+  padding: 5px 114px;
+  padding-bottom: 40px;
+}
+
+.grp3 h3 {
+  text-align: center;
+  color: white;
+  font-size: 37px;
+  padding-top: 25px;
+  font-weight: 600;
+}
+.grp3 .down p {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding: 8px;
+  font-weight: 300;
+}
+
+/* ************** Group 3 End ****************** */
+
+/* ************** Group 4 Start ****************** */
+.grp4 {
+  width: 100%;
+  padding: 50px;
+  padding-bottom: 10rem;
+}
+.grp4 .right {
+  text-align: right;
+}
+.grp4 .right h1 {
+  font-size: 49px;
+  font-weight: 600;
+  padding-top: 10rem;
+}
+.grp4 .right p {
+  font-size: 28px;
+  padding: 25px 0;
+}
+.grp4 .right .btn-warning {
+  background-color: #fcc302;
+  color: white;
+  font-family: "Poppins", sans-serif !important;
+}
+.grp4 .right .btn-warning:hover {
+  background-color: #ffce2e;
+}
+.grp4 .left {
+  padding-top: 7rem;
+}
+.grp4 .video {
+  position: relative;
+  z-index: 1;
+}
+.grp4 .shadow {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(252, 195, 2, 0.5);
+}
+.grp4 .box {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: #fcc302;
+  bottom: -30px;
+  right: -30px;
+  z-index: -1;
+}
+.grp4 .icon i {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 70px;
+  color: #fcc302;
+  font-size: 30px !important;
+  position: absolute;
+  top: 43%;
+  left: 43%;
+}
+/* ************** Group 4 End ****************** */
+
+/* ************** Group 5 Start ****************** */
+.grp5 {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #fcc302;
+}
+.grp5 h1 {
+  font-weight: 600;
+  font-size: 75px;
+  text-align: center;
+  color: white;
+}
+.grp5 p {
+  font-weight: 400;
+  font-size: 33px;
+  text-align: center;
+  color: white;
+  padding: 5px 114px;
+  padding-bottom: 40px;
+}
+
+.grp5 h3 {
+  /* text-align: center; */
+  color: white;
+  font-size: 37px;
+  padding-top: 25px;
+  font-weight: 600;
+}
+.grp5 .btn-info {
+  margin-top: 1.5rem;
+  background-color: #00bec9 !important;
+  border: 2px solid #00bec9;
+  color: white;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 10rem;
+
+  /* box-shadow: 10px 10px 5px red !important; */
+}
+.grp5 .down .row {
+  text-align: center;
+}
+/* .grp5 .btn-danger:active {
+  box-shadow: 10px 10px 5px red !important;
+} */
+
+/* ************** Group 5 End ****************** */
+
+/* ************** Group 6 Start ****************** */
+.grp6 {
+  width: 100%;
+  padding: 100px 0;
+}
+.grp6 h1 {
+  font-weight: 600;
+  font-size: 75px;
+  text-align: center;
+  color: #313243;
+}
+.grp6 p {
+  font-weight: 400;
+  font-size: 33px;
+  text-align: center !important;
+  color: #313243;
+  padding: 5px 114px;
+  padding-bottom: 80px;
+}
+
+.grp6 h3 {
+  /* text-align: center; */
+  color: #313243;
+  font-size: 29px;
+  padding-top: 25px;
+  font-weight: 600;
+}
+
+.grp6 .down .row {
+  text-align: center !important;
+}
+.grp6 .down p {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  color: #313243;
+}
+.grp6 .down .icon li {
+  list-style: none;
+  display: inline-block !important;
+  margin: 0 5px;
+  font-size: 20px;
+  /* padding: 5px; */
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #daac00;
+  color: white !important;
+  border-radius: 100%;
+  /* border: 1px solid black; */
+}
+.grp6 .down .icon li a {
+  color: white;
+}
+.grp6 .down .icon ul {
+  padding: 0;
+}
+/* .grp5 .btn-danger:active {
+  box-shadow: 10px 10px 5px red !important;
+} */
+/* ************** Group 6 End ****************** */
+
+/* ************** Group 7 Start ****************** */
+.grp7 {
+  width: 100%;
+  background-image: url(../img/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 50px 0;
+  position: relative;
+  height: 86vh;
+  text-align: center !important;
+  /* padding-top: 152px !important; <it won't work */
+  color: white;
+  position: relative;
+}
+.grp7 p {
+  padding-top: 50px;
+  font-size: 41px;
+}
+.grp7 h3 {
+  font-size: 37px;
+  font-weight: 600;
+}
+.grp7 .shadow {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(252, 195, 2, 0.85);
+}
+.grp7 .row {
+  padding-top: 9rem;
+}
+/* ************** Group 7 End ****************** */
+
+/* ************** Group 8 Start ****************** */
+.grp8 .up h1 {
+  color: #313243;
+  font-size: 75px;
+  font-weight: 600;
+}
+.grp8 .up p {
+  color: #313243;
+  font-size: 33px;
+  font-weight: 400;
+  padding: 0px 30px;
+  padding-bottom: 3rem;
+}
+.grp8 .down .text {
+  text-align: left !important;
+}
+.grp8 .down h1 {
+  color: #313243;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 2rem;
+  padding-bottom: 0.5rem;
+}
+.grp8 .down span {
+  font-size: 16px;
+  color: #00bec9;
+  padding: 0rem 2rem;
+}
+.grp8 .down p {
+  color: #313243;
+  font-size: 16px;
+  padding: 2rem;
+  padding-bottom: 0.5rem;
+}
+.grp8 .down h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00bec9;
+  padding: 0 2rem;
+}
+.grp8 .down .body {
+  padding: 0 20px;
+  padding-bottom: 7rem;
+}
+.grp8 .down .text {
+  border: 1px solid #c2c2c5;
+  border-top: none;
+}
+/* ************** Group 8 End ****************** */
+
+/* ************** Footer Start ****************** */
+footer {
+  width: 100%;
+  background-color: #343434;
+  padding: 5rem 0;
+  color: white;
+}
+footer h1 {
+  font-size: 37px;
+}
+footer li {
+  list-style: none !important;
+  text-align: left !important;
+  font-size: 24px;
+  font-weight: 300;
+}
+footer p {
+  font-size: 24px !important;
+  font-weight: 300 !important;
+}
+footer .icon li {
+  text-align: right !important;
+  display: inline-block;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center !important;
+  background-color: white;
+  border-radius: 100%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+footer .icon li a {
+  /* color: white !important; */
+  color: #343434;
+}
+
+footer .send input {
+  padding: 27px 105px;
+  border: none;
+  background-color: #daac00;
+  margin: 0;
+}
+footer .send button {
+  padding: 0px 57px;
+  margin-left: -5px;
+  border: none;
+  font-size: 24px;
+  color: white;
+  background-color: #00bec9;
+}
+footer .send {
+  /* display: inline !important; */
+  display: inline-flex;
+  padding: 25px 0;
+}
+/* ************** Footer End ****************** */
